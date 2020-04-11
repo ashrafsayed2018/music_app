@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="app">
+      <header>
+          <h1>Tap Music</h1>
+          <p>Make Music With Only One Tap </p>
+          <input type="range" id="volume" name="volume" min="0" max="1" step=".1" style="width: 100%;margin-top: 20px;">
+          <div class="volume-result" style="color:#fff;text-align: center;margin-top: 20px;">0</div>
+      </header>
+      <div class="visual">
+      
+      </div>
+      <div class="pads">
+          <div class="pad1">
+              <audio class="sound" src="./sounds/pluie_sur_le_toit.mp3"></audio>
+          </div>
+          <div class="pad2">
+              <audio class="sound" src="./sounds/rain3wav.mp3"></audio>
+          </div>
+          <div class="pad3">
+              <audio class="sound" src="./sounds/storm-huricane.mp3"></audio>
+          </div>
+          <div class="pad4">
+              <audio class="sound" src="./sounds/storm.mp3"></audio>
+          </div>
+          <div class="pad5">
+              <audio class="sound" src="./sounds/Storm_exclamation.mp3"></audio>
+          </div>
+          <div class="pad6">
+              <audio class="sound" src="./sounds/thunder3.mp3"></audio>
+          </div>
+      </div>
+   </div>
+   <script src="./script.js"></script>
+</body>
+</html>
